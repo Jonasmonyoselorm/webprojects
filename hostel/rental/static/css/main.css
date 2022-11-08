@@ -1,9 +1,72 @@
-* {
-    padding: 20px;
-    margin: 0;
-    font-family: calibri;
-}
 
 body {
-    background-color: wheat;
+    background-color: white;
+    color: black;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR */
+
+nav {
+    flex: 1;
+    text-align: left;
+    background-color: #0B2C3D;
+}
+
+.navbar a  {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    color: #CB3421;
+    font-weight: bolder;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #F2F6F7;
+}
+
+/*main content*/
+
+.row {
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+
+.why_us {
+    background-color: #0B2C3D;
+    color: white;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #0B2C3D;
+    color: white;
+    text-align: center;
 }
