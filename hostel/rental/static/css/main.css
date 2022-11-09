@@ -1,12 +1,32 @@
 
-body {
-    background-color: white;
-    color: black;
+
+*{
+    margin: 0;
     padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+.main-heading {
+    color: white;
+    background-color: #0B2C3D;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/heading-bg.jpg);
+    /*background-blend-mode: multiply;*/
+    padding: 200px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+    border-bottom: 3px solid #CB3421;
 }
 
 li {
@@ -25,7 +45,7 @@ nav {
     list-style: none;
     display: inline-block;
     margin-left: 30px;
-    color: #CB3421;
+    color: white;
     font-weight: bolder;
 }
 
@@ -34,9 +54,6 @@ nav ul li a {
     font-size: 16px;
 }
 
-.header {
-    background-color: #F2F6F7;
-}
 
 /*main content*/
 
@@ -56,13 +73,36 @@ p {
     font-size: 14px;
 }
 
+.about_content {
+    text-align: center;    
+    padding: 50px 0px;
+}
 
+.title {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: #0B2C3D;
+
+}
+
+.img_pics {
+    width: 100%;
+}
 
 .why_us {
     background-color: #0B2C3D;
     color: white;
     text-align: center;
+    padding: 50px 0;
+    margin: 30px 0;
 }
+
+
+
+
+
+
 
 
 .footer {

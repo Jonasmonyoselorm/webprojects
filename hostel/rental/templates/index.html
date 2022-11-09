@@ -6,144 +6,119 @@
 {% block content %}
     
 
-<div class="container-fluid header">
-    <div class="row">
-        <div class="col">
-            <h1>Shara</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, numquam quod accusamus 
-                a ducimus magnam nobis eligendi dolore deserunt facilis ad in. Expedita, accusamus consectetur 
-                officia optio nisi in quibusdam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Fuga provident nulla inventore quaerat possimus dolorem iste nesciunt? Labore voluptatum commodi sint ratione, 
-                est suscipit quo dolorem ipsum officia minima nesciunt.
-            </p>
-        </div>
-        <div class="col"></div>
-    </div>
-
+<!--heading-->
+<div class="main-heading container-fluid">
+  <h1>Shara 1</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, numquam quod accusamus 
+    a ducimus magnam nobis eligendi dolore deserunt facilis ad in. Expedita, accusamus consectetur 
+    officia optio nisi in quibusdam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Fuga provident nulla inventore quaerat possimus dolorem iste nesciunt? Labore voluptatum commodi sint ratione, 
+    est suscipit quo dolorem ipsum officia minima nesciunt.
+  </p>
 </div>
 
+<!--about-->
 
+<div class="container about_content">
+  <div class="title">
+    <h1>About us</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+        <img class="img_pics" src="{% static 'images/about-img.jpg' %}" alt="">
+    </div>
+    <div class="col-md-6">
+          <div class="heading_container">
+              <h2>
+                  About Our Apartment
+              </h2>
+          </div>
+          <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected humour, or randomised words
+          </p>
+          <a href="">
+              Read More
+          </a>
+    </div>
+  </div>
+</div>
+
+<!--rooms for rent-->
 <div class="container">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-            <div class="img-box">
-                <img src="{% static 'images/about-img.jpg' %}" alt="">
-            </div>
-            </div>
-            <div class="col-md-6">
-                <div class="detail-box">
-                    <div class="heading_container">
-                        <h2>
-                            About Our Apartment
-                        </h2>
-                    </div>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                        in
-                        some form, by injected humour, or randomised words
-                    </p>
-                    <a href="">
-                        Read More
-                    </a>
-                </div>
-            </div>
+  <h1 class="title">
+    House For Sale
+  </h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="{% static 'images/s-1.jpg' %}" class="card-img-top img_pics" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4 in One</h5>
+          <p class="card-text">T&C Read...</p>
         </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <ul>
+              <li>3 mins walk from UG</li>
+              
+              <li>2 mins walk from UPSA</li>
+              
+              <li>8 mins walk from GIMPA</li>
+            </ul>
+          </small>
+        </div>
+      </div>
     </div>
-</div>
-
-
-<div class="container-fluid">
-    <div class="heading_container">
-      <h2>
-        House For Sale
-      </h2>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but the
-      </p>
+    <div class="col">
+      <div class="card h-100">
+        <img  src="{% static 'images/s-4.jpg' %}" class="card-img-top img_pics" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">3 in One</h5>
+          <p class="card-text">T&C Read...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <ul>
+              <li>3 mins walk from UG</li>
+              
+              <li>2 mins walk from UPSA</li>
+              
+              <li>8 mins walk from GIMPA</li>
+            </ul>
+          </small>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-1.jpg' %}" alt="">
+    <div class="col">
+      <div class="card h-100">
+        <img src="{% static 'images/s-3.jpg' %}" class="card-img-top img_pics" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">2 in One</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-2.jpg' %}" alt="">
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="{% static 'images/s-2.jpg' %}" class="card-img-top img_pics" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Luxery</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-3.jpg' %}" alt="">
-        </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-4.jpg' %}" alt="">
-        </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-5.jpg' %}" alt="">
-        </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="img-box">
-          <img src="{% static 'images/s-6.jpg' %}" alt="">
-        </div>
-        <div class="detail-box">
-          <h6>
-            apertments house
-          </h6>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-          </p>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
     </div>
   </div>
+</div>
 
+<!--records and awards-->
   <div class="container-fluid why_us">
     <div class="container">
         <div class="heading_container">
@@ -221,18 +196,20 @@
     </div>
 </div>
 
+<!--Testimonials-->
 <div class="container">
-    <h1>
+    <h1 class="title">
         What our Customers say.
     </h1>
     
 </div>
 
+<!---Contact us-->
 <div class="container">
-    <div class="heading_container">
-      <h2>
+    <div class="">
+      <h1 class="title">
         Get In Touch
-      </h2>
+      </h1>
     </div>
   </div>
   <div class="container-fluid">
@@ -245,7 +222,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-5 ">
+      <!--contact forms-->
+      <div class="col-lg-4 col-md-5 ">        
         <div class="form_container">
           <form action="">
             <div>
@@ -272,7 +250,7 @@
     </div>
   </div>
 
-
+<!--footer-->
 <div class="container-fluid footer">
     <div class="container">
         <div class="row">
@@ -379,7 +357,7 @@
                   <img src="{% static 'images/linkedin.png' %}" alt="">
                 </a>
                 <a href="">
-                  <img src="{% static 'images/youtube.png' %}" alt="">
+                  <img class="responsive-rounded" src="{% static 'images/youtube.png' %}" alt="">
                 </a>
               </div>
             </div>
