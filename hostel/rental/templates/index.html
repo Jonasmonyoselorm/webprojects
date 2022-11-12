@@ -8,13 +8,18 @@
 
 <!--heading-->
 <div class="main-heading container-fluid">
-  <h1>Shara 1</h1>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, numquam quod accusamus 
-    a ducimus magnam nobis eligendi dolore deserunt facilis ad in. Expedita, accusamus consectetur 
-    officia optio nisi in quibusdam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Fuga provident nulla inventore quaerat possimus dolorem iste nesciunt? Labore voluptatum commodi sint ratione, 
-    est suscipit quo dolorem ipsum officia minima nesciunt.
-  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Online</h1>
+        <h1>Accomodation</h1>
+        <p>
+          Rooms available for students at <span class="headline">UG, GIMPA, UPSA, WISCONSIN</span>
+        </p>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+  </div>
 </div>
 
 <!--about-->
@@ -45,10 +50,10 @@
   </div>
 </div>
 
-<!--rooms for rent-->
+<!--Available categories-->
 <div class="container">
   <h1 class="title">
-    House For Sale
+    Categories
   </h1>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -132,7 +137,7 @@
           </div>
           <div class="detail-box">
               <h3 class="price">
-              1000+
+              100+
               </h3>
               <h5>
               Years of House
@@ -140,6 +145,7 @@
           </div>
           </div>
       </div>
+
       <div class="col-md-3 col-sm-6">
           <div class="box">
           <div class="img-box">
@@ -147,14 +153,15 @@
           </div>
           <div class="detail-box">
               <h3>
-              20000+
+              2000+
               </h3>
               <h5>
-              Projects Delivered
+              Positive Delivered
               </h5>
           </div>
           </div>
       </div>
+
       <div class="col-md-3 col-sm-6">
           <div class="box">
           <div class="img-box">
@@ -170,74 +177,66 @@
           </div>
           </div>
       </div>
+
       <div class="col-md-3 col-sm-6">
           <div class="box">
-          <div class="img-box">
-              <img src="{% static 'images/u-4.png' %}" alt="">
+            <div class="img-box">
+                <img src="{% static 'images/u-4.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+                <h3>
+                1500+
+                </h3>
+                <h5>
+                Cheap Rates
+                </h5>
+            </div>
           </div>
-          <div class="detail-box">
-              <h3>
-              1500+
-              </h3>
-              <h5>
-              Cheap Rates
-              </h5>
-          </div>
-          </div>
-      </div>
-      </div>
-      <div class="btn-box">
-      <a href="">
-          Get A Quote
-      </a>
       </div>
     </div>
   </div>
 </div>
 
 <!--Testimonials-->
-<div class="container testimonials">
+<div class="container-fluid testimonials">
     <h1 class="title">
         Clients Feedback
     </h1>
     
     <div class="row card-group">
-      <div class="col-md-4">
-        <div class="card">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
+      <div class="col-md-4 card">
+        <p>
+          <span>"</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
           voluptatibus consectetur illo. Iusto debitis vero autem commodi ipsam quo iste laudantium, aut natus.
+        </p>
         
-        <div>
+        <div class="testimonialFooter">
           <img class="img-rounded" src="" alt="...">
           <h6>- Jonas Monyo</h6>
-        </div>
-
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
+      <div class="col-md-4 card">
+        <p>
+          <span>"</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
           voluptatibus consectetur illo. Iusto debitis vero autem commodi ipsam quo iste laudantium, aut natus.
+        </p>
         
-        <div>
+        <div class="testimonialFooter">
           <img class="img-rounded" src="" alt="...">
           <h6>- Jonas Monyo</h6>
-        </div>
-
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
+      <div class="col-md-4 card">
+        <p>
+          <span>"</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, possimus? Expedita laudantium cupiditate tempora et dolores, 
           voluptatibus consectetur illo. Iusto debitis vero autem commodi ipsam quo iste laudantium, aut natus.
+        </p>
         
-        <div>
+        <div class="testimonialFooter">
           <img class="img-rounded" src="" alt="...">
           <h6>- Jonas Monyo</h6>
-        </div>
-
         </div>
       </div>
     </div>
@@ -245,167 +244,144 @@
 </div>
 
 <!---Contact us-->
-<div class="container">
-    <div class="">
-      <h1 class="title">
-        Get In Touch
-      </h1>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 px-0">
-          <div class="map-responsive map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7940.882692123299!2d-0.1882739606206148!3d5.649109261901293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7e6c03a39f%3A0x3aa7d4501b01d8fa!2sLegon%20Hall!5e0!3m2!1sen!2sgh!4v1668166915413!5m2!1sen!2sgh" 
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-      </div>
-      <!--contact forms-->
-      <div class="col-md-5 ">        
-        <div class="form_container">
-          <form action="">
-            <div>
-              <input type="text" placeholder="Name" autocomplete="off"/>
-            </div>
-            <div>
-              <input type="email" placeholder="Email" autocomplete="off"/>
-            </div>
-            <div>
-              <input type="text" placeholder="Phone Number" autocomplete="off"/>
-            </div>
-            <div>
-              <textarea name="message_box" id="" cols="30" rows="3" autocomplete="off"></textarea>
-            </div>
-            <div>
-              <button>Send</button>
-            </div>
-          </form>
+<div class="container-fluid">
+  <h1 class="title">
+    Get In Touch
+  </h1>
+
+  <div class="row">
+    <div class="col-md-6">
+        <div class="map-responsive map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7940.882692123299!2d-0.1882739606206148!3d5.649109261901293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7e6c03a39f%3A0x3aa7d4501b01d8fa!2sLegon%20Hall!5e0!3m2!1sen!2sgh!4v1668166915413!5m2!1sen!2sgh" 
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </div>
-
     </div>
-  </div>
 
-<!--footer-->
+    <!--contact forms-->
+    <div class="col-md-5 ">        
+      <div class="form_container">
+        <form action="">
+          <div>
+            <input type="text" placeholder="Name" autocomplete="off"/>
+          </div>
+          <div>
+            <input type="email" placeholder="Email" autocomplete="off"/>
+          </div>
+          <div>
+            <input type="text" placeholder="Phone Number" autocomplete="off"/>
+          </div>
+          <div>
+            <textarea name="message_box" id="" cols="30" rows="3" autocomplete="off"></textarea>
+          </div>
+          <div>
+            <button>Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--information section-->
 <div class="container-fluid footer">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="info_contact">
-              <h5>
-                About Apartment
-              </h5>
-              <div>
-                <i class="fa fa-map-marker" aria-hidden="true">Address</i>
-              </div>
-              <div>
-                <div class="img-box">
-                  <img src="{% static 'images/phone.png' %}" width="12px" alt="">
-                </div>
-                <p>
-                  +01 1234567890
-                </p>
-              </div>
-              <div>
-                <div class="img-box">
-                  <img src="{% static 'images/mail.png' %}" width="18px" alt="">
-                </div>
-                <p>
-                  demo@gmail.com
-                </p>
-              </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="contactInfo">
+          <h5>
+            Contact Information
+          </h5>
+          <div class="icons">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>University of Ghana main campus</p>
           </div>
-          <div class="col-md-3">
-            <div class="info_info">
-              <h5>
-                Information
-              </h5>
-              <p>
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              </p>
+          <div>
+            <div class="icons">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-brands fa-whatsapp"></i>
             </div>
+            <p>
+              +233 599906240 <br>
+              +233 201492986
+            </p>
           </div>
-  
-          <div class="col-md-3">
-            <div class="info_links">
-              <h5>
-                Useful Link
-              </h5>
-              <ul>
-                <li>
-                  <a href="">
-                    There are many
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    variations of
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    passages of
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Lorem Ipsum
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    available, but
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    the i
-                  </a>
-                </li>
-              </ul>
+          <div>
+            <div class="icons">
+              <i class="fa-regular fa-envelope"></i>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info_form ">
-              <h5>
-                Newsletter
-              </h5>
-              <form action="">
-                <input type="email" placeholder="Enter your email">
-                <button>
-                  Subscribe
-                </button>
-              </form>
-              <div class="social_box">
-                <a href="">
-                  <img src="{% static 'images/fb.png' %}" alt="">
-                </a>
-                <a href="">
-                  <img src="{% static 'images/twitter.png' %}" alt="">
-                </a>
-                <a href="">
-                  <img src="{% static 'images/linkedin.png' %}" alt="">
-                </a>
-                <a href="">
-                  <img class="responsive-rounded" src="{% static 'images/youtube.png' %}" alt="">
-                </a>
-              </div>
-            </div>
+            <p>
+              lhilgold100@gmail.com
+            </p>
           </div>
         </div>
       </div>
-  
-    <!-- end info_section -->
-  
-  
-    <!-- footer section -->
-    <section class="container-fluid footer_section ">
-      <div class="container">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved 
-        </p>
+
+      <div class="col-md-3">
+        <div class="">
+          <h5>
+            Information
+          </h5>
+          <p>
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          </p>
+        </div>
       </div>
+
+      <div class="col-md-3">
+        <div class="">
+          
+          <h5>
+            Useful Link
+          </h5>
+
+          <ul class="footerList">
+            <li>
+              <a href="">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div>
+          
+          <h5>
+            Payment Mode
+          </h5>
+          
+          <div class="paymentMode">
+            <ul class="footerList">
+              <li>MoMO Pay</li>
+              <li>Bank Payment</li>
+              <li>Cash Payment</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+  
+<!-- footer-->
+<div class="container-fluid footerEnd">
+    <p>
+      &copy; <span id="displayYear"></span> | All Rights Reserved 
+    </p>
+</div>
 
 
 
