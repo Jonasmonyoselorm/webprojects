@@ -119,7 +119,23 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Email Settings
+
+
+# myaccount.google.com/lesssecureapps
+# accounts.google.com//DisplayUnlockCaptcha
+# myaccount.google.com/apppasswords
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_HOST_USER = 'monyo@gmail.com'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
