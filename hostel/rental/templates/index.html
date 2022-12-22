@@ -39,11 +39,11 @@
               </h2>
           </div>
           <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in
-              some form, by injected humour, or randomised words
+            Welcome to our hostel rental website! We are a team of Students and Alumni 
+            who have come together to create a comfortable and affordable accommodation 
+            option for Students around the Universities in Ghana.
           </p>
-          <a href="">
+          <a href="{% url 'rental:aboutUs' %}">
               Read More
           </a>
     </div>
@@ -61,7 +61,9 @@
         <img src="{% static 'images/s-1.jpg' %}" class="card-img-top img_pics" alt="...">
         <div class="card-body">
           <h5 class="card-title">4 in One</h5>
-          <p class="card-text">T&C Read...</p>
+          <a href="{% url 'rental:four-in-one' %}">
+            <p class="card-text">T&C Read...</p>
+          </a>
         </div>
         <div class="card-footer">
           <small class="text-muted">
@@ -81,7 +83,9 @@
         <img  src="{% static 'images/s-4.jpg' %}" class="card-img-top img_pics" alt="...">
         <div class="card-body">
           <h5 class="card-title">3 in One</h5>
-          <p class="card-text">T&C Read...</p>
+          <a href="{% url 'rental:three-in-one' %}">
+            <p class="card-text">T&C Read...</p>
+          </a>
         </div>
         <div class="card-footer">
           <small class="text-muted">
@@ -101,6 +105,9 @@
         <img src="{% static 'images/s-3.jpg' %}" class="card-img-top img_pics" alt="...">
         <div class="card-body">
           <h5 class="card-title">2 in One</h5>
+          <a href="{% url 'rental:four-in-one' %}">
+            <p class="card-text">T&C Read...</p>
+          </a>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
         <div class="card-footer">
@@ -112,7 +119,10 @@
       <div class="card h-100">
         <img src="{% static 'images/s-2.jpg' %}" class="card-img-top img_pics" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Luxery</h5>
+          <h5 class="card-title">Luxurious</h5>
+          <a href="{% url 'rental:four-in-one' %}">
+            <p class="card-text">T&C Read...</p>
+          </a>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
         <div class="card-footer">

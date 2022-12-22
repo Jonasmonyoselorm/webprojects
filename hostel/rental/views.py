@@ -3,8 +3,11 @@ from django.core.mail import send_mail #to allow you send mails
 
 # Create your views here.
 
+# Home page view
 def index(request):
     return render(request, 'index.html', {})
+
+# Contact Us page view
 
 def contact_us(request):
     if request.method == "POST":
@@ -28,3 +31,20 @@ def contact_us(request):
 
     else:
         return render(request, 'contact.html', {})
+        
+
+
+# About page view
+
+def about_us(request):
+    return render(request, 'about.html', {})
+
+# CATEGORIES - 4-IN-ONE
+
+def four_in_one(request):
+    return render(request, 'four-in-one.html', {})
+
+
+def three_in_one(request):
+    return render(request, 'three-in-one.html', {})
+
