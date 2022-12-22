@@ -39,12 +39,16 @@ def contact_us(request):
 def about_us(request):
     return render(request, 'about.html', {})
 
-# CATEGORIES - 4-IN-ONE
 
+
+# 4-IN-ONE CATEGORIES
 def four_in_one(request):
     return render(request, 'four-in-one.html', {})
 
-
+# 3-IN-ONE CATEGORY PAGE
 def three_in_one(request):
     return render(request, 'three-in-one.html', {})
 
+# C M Hostel images page
+def cm_hostel(request):
+    return render(request, 'cm-hostel.html', {})

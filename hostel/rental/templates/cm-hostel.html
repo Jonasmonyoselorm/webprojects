@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% load static %}
+   
+
+{% block content %}
+
+
+<div class="container">
+    <h1 class="title">C. M. Gallery</h1>
+    
+    
+    <div class="threeInOneGallery">
+        <a href="{% static 'images/cm-hostel-images/cm-hostel.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hostel.png' %}" height="150" alt=""></img>
+        </a>
+        <a href="{% static 'images/cm-hostel-images/cm-hostel-1.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hoste-1.png' %}" height="150" alt=""></img>
+        </a>
+        <a href="{% static 'images/cm-hostel-images/cm-hostel-2.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hostel-2.png' %}" height="150" alt=""></img>
+        </a>
+        <a href="{% static 'images/cm-hostel-images/cm-hostel-3.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hostel-3.png' %}" height="150" alt=""></img>
+        </a>
+        <a href="{% static 'images/cm-hostel-images/cm-hostel-4.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hostel-4.png' %}" height="150" alt=""></img>
+        </a>
+        <a href="{% static 'images/cm-hostel-images/cm-hostel-5.png' %}" data-lightbox="mygallery" data-title="cm-hostel">
+            <img src="{% static 'images/cm-hostel-images/cm-hostel-5.png' %}" height="150" alt=""></img>
+        </a>
+    </div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section -->
+{% include 'footer.html' %}
+
+
+{% endblock %}
+

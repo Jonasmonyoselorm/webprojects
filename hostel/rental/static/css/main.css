@@ -387,7 +387,17 @@ h2::after {
 }
 
 
+/* 3-in-1 gallery */
 
+.threeInOneGallery {
+    gap: 10px;
+
+}
+
+.threeInOneGallery, a,  a:hover {
+    border: none;
+    cursor: pointer;
+}
 
 
 

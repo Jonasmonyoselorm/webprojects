@@ -11,7 +11,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100">
-          <img src="{% static 'images/mr-hostel.png' %}" class="card-img-top img_pics" alt="MR Hostel">
+          <img src="{% static 'images/spj-hostel-images/spj-hostel.png' %}" class="card-img-top img_pics" alt="MR Hostel">
           <div class="card-body">
             <h5 class="card-title">M. R. Hostel</h5>
 
@@ -56,7 +56,7 @@
                 <a href="{% url 'rental:three-in-one' %}">
                     <p class="card-text">T&C Read...</p>
                 </a>
-                <a href="">
+                <a href="{% url 'rental:cm-hostel' %}">
                     <p class="card-text">View Pics</p>
                 </a>
             </div>
@@ -78,7 +78,7 @@
         <div class="card h-100">
           <img src="{% static 'images/s-3.jpg' %}" class="card-img-top img_pics" alt="...">
           <div class="card-body">
-            <h5 class="card-title">2 in One</h5>
+            <h5 class="card-title">S. P. J. Hostel</h5>
 
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in 
                 to additional content. This card has even longer content than the first to show that 
