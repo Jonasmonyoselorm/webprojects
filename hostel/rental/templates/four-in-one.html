@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% load static %}
+   
+
+{% block content %}
+
+<div class="container">
+    <h1 class="title">
+      Categories Page
+    </h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'images/mr-hostel.png' %}" class="card-img-top img_pics" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">M. R. Hostel</h5>
+            <div class="hostel-links">
+                <a href="{% url 'rental:four-in-one' %}"><p class="card-text">T&C Read...</p></a>
+                <a href=""><p class="card-text">View Pics</p></a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <ul>
+                <li>3 mins walk from UG</li>
+                
+                <li>2 mins walk from UPSA</li>
+                
+                <li>8 mins walk from GIMPA</li>
+              </ul>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img  src="{% static 'images/s-4.jpg' %}" class="card-img-top img_pics" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">C. M. Hostel</h5>
+            <a><p class="card-text">T&C Read...</p></a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <ul>
+                <li>3 mins walk from UG</li>
+                
+                <li>2 mins walk from UPSA</li>
+                
+                <li>8 mins walk from GIMPA</li>
+              </ul>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'images/s-3.jpg' %}" class="card-img-top img_pics" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2 in One</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in 
+                to additional content. This card has even longer content than the first to show that 
+                equal height action.<br> 
+                <a>T&C Read...</a></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'images/s-2.jpg' %}" class="card-img-top img_pics" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">5 Star Hostel</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to 
+                additional content. This card has even longer content than the first to show that equal 
+                height action.<br> 
+                <a>T&C Read...</a></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- footer section -->
+{% include 'footer.html' %}
+
+
+{% endblock %}
